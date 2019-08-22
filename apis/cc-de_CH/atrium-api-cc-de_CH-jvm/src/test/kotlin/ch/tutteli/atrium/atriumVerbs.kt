@@ -68,6 +68,7 @@ class AsciiBulletPointReporterFactory : ReporterFactory {
             .withOnlyFailureReporter()
             .build()
     }
+
     companion object {
         const val ID = "ascii"
     }
